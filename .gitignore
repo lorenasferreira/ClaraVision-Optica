@@ -1,0 +1,4 @@
+db_connect.php
+.DS_Store
+.vscode/
+*.log
