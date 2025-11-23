@@ -5,6 +5,8 @@ It was created as part of my backend and database learning journey, focusing on 
 
 This project recreates the structure of a modern optical store website, featuring a dynamic product catalog connected to MySQL, a branded UI and modular reusable components.
 
+Available here: https://claravision.infinityfree.me
+
 ---
 
 ## Features
