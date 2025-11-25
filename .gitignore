@@ -1,4 +1,5 @@
 db_connect.php
+db_connect_local.php
 .DS_Store
 .vscode/
 *.log

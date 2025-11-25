@@ -1,0 +1,241 @@
+:root {
+  --red: #e30613;
+  --dark-red: #c1000a;
+  --white: #ffffff;
+  --gray-light: #f4f4f4;
+  --gray: #d9d9d9;
+  --text: #333;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font, Arial, sans-serif);
+  background: var(--gray-light);
+  color: var(--text);
+}
+.brand-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.admin-main {
+  text-align: center;
+}
+.admin-header {
+  background: var(--dark-red);
+  color: var(--white);
+  padding: 18px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.logout-btn {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: bold;
+  background: var(--dark-red);
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+.logout-btn:hover {
+  background: #a30008;
+}
+.admin-nav {
+  background: var(--white);
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--gray);
+  display: flex;
+  gap: 20px;
+}
+.admin-nav a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: bold
+}
+.login-body {
+  background: var(--gray-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-wrapper {
+  width: 380px;
+  padding: 30px;
+}
+
+.login-box {
+  background: var(--white);
+  border: 2px solid var(--red);
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.login-title {
+  text-align: center;
+  color: var(--red);
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid var(--gray);
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: var(--red);
+  color: var(--white);
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-btn:hover {
+  background: var(--dark-red);
+}
+
+.error-message {
+  color: var(--red);
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.page-header h2 {
+  margin: 0;
+  font-size: 22px;
+  color: var(--text);
+}
+.btn-primary {
+  background: var(--red);
+  color: var(--white);
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn-primary:hover {
+  background: var(--dark-red);
+}
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.07);
+}
+.admin-table th {
+  background: var(--text);
+  color: var(--white);
+  padding: 14px;
+  font-size: 14px;
+  text-align: left;
+}
+.admin-table td {
+  padding: 12px;
+  border-bottom: 1px solid var(--gray);
+  font-size: 14px;
+}
+.admin-table tr:nth-child(even) {
+  background: var(--gray-light);
+}
+.empty-row {
+  text-align: center;
+  color: var(--text);
+  padding: 25px;
+  font-style: italic;
+}
+.btn-action {
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: 8px;
+  color: var(--white);
+}
+.btn-action.edit {
+  background: #0077cc;
+}
+.btn-action.edit:hover {
+  background: #005fa3;
+}
+.btn-action.delete {
+  background: #cc0000;
+}
+.btn-action.delete:hover {
+  background: #a30000;
+}
+.admin-form {
+  background: var(--white);
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid var(--gray);
+  max-width: 420px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.06);
+}
+
+.admin-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.admin-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--gray);
+  border-radius: 6px;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+.admin-form button {
+  margin-top: 10px;
+}
+.error-message {
+  background: #ffd4d4;
+  color: #b30000;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  border: 1px solid #ffb5b5;
+}

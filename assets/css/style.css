@@ -127,7 +127,7 @@ a {
 .social-icons img {
   width: 28px;
   height: 28px;
-  filter: brightness(0) invert(1); /* deixa branco */
+  filter: brightness(0) invert(1);
   transition: 0.2s;
 }
 .social-icons img:hover {

@@ -1,4 +1,4 @@
-<?php include('db_connect.php'); ?>
+<?php require_once "db_connect.php"; ?>
 
 <?php
 $sql = "SELECT id, nombre, detalles_tecnicos, fecha_registro, imagen FROM producto";

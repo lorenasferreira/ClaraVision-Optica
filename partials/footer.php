@@ -1,14 +1,12 @@
 <footer class="footer">
     <div class="footer-container">
 
-        <!-- LOGO -->
         <div class="footer-brand">
             <img src="./assets/img/logo.png" alt="ClaraVisión logo" class="footer-logo">
             <h2>ClaraVisión Óptica</h2>
             <p class="footer-slogan">Cuidando de tu visión con claridad.</p>
         </div>
 
-        <!-- LINKS ÚTEIS -->
         <div class="footer-links">
             <h3>Enlaces</h3>
             <ul>
@@ -18,7 +16,6 @@
             </ul>
         </div>
 
-        <!-- REDES SOCIAIS -->
         <div class="footer-social">
             <h3>Síguenos</h3>
             <div class="social-icons">

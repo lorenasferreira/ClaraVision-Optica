@@ -8,6 +8,8 @@
   <title>ClaraVisión Óptica</title>
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/home.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="shortcut icon" href="favicon.ico">
 </head>
 
 <body>
