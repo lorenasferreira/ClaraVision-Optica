@@ -28,7 +28,7 @@ if (!isset($_SESSION["logged_in"]) || $_SESSION["logged_in"] !== true) {
         <a href="products.php">Productos</a>
         <a href="sales.php">Ventas</a>
     </nav>
-    <main class="admin-main">
+    <main class="admin-welcome">
         <h2>Bienvenida, <?php echo $_SESSION["admin_name"]; ?>!</h2>
         <p>Selecciona una opción en el menu para navegar por el sistema.</p>
     </main>

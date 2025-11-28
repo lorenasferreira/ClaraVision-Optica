@@ -65,7 +65,11 @@ if ($result && $result->num_rows > 0) {
                             <td><?php echo $c['apellido']; ?></td>
                             <td>
                                 <a href="edit_client.php?id=<?php echo $c['id']; ?>" class="btn-action edit">Edit</a>
-                                <a href="delete_client.php?id=<?php echo $c['id']; ?>" class="btn-action delete">Delete</a>
+                                <a href="delete_client.php?id=<?php echo $c['id']; ?>"
+                                    class="btn-action delete"
+                                    onclick="return confirmDelete();">
+                                    Delete
+                                </a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
@@ -73,6 +77,6 @@ if ($result && $result->num_rows > 0) {
             </tbody>
         </table>
     </main>
+    <script src="../assets/js/script.js"></script>
 </body>
-
 </html>

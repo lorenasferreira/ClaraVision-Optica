@@ -16,3 +16,8 @@ function showSlide(i) {
   index = (i + totalSlides) % totalSlides;
   slidesContainer.style.transform = `translateX(${-index * 100}%)`;
 }
+
+function confirmDelete() {
+    return confirm("Are you sure you want to delete this?");
+}
+
